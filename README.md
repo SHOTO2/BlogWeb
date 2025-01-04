@@ -32,10 +32,10 @@ Entity Framework is used for querying the database, with a database-first approa
 ## Post Management
 
 ### Add Post
-- Only **Admin** users are allowed to create posts.
+- Only **users** are allowed to create posts.
   
 ### Update Post
-- Only **Admin** users are allowed to update existing posts.
+- Only **Admin** are allowed to update existing posts.
 
 ### Fetch All Posts of the User
 - Allows fetching of all posts created by the logged-in user.
@@ -60,9 +60,9 @@ Entity Framework is used for querying the database, with a database-first approa
 
 - **JWT Authentication**: Ensures secure login and session management.
 - **Authorization**: 
-  - Only users with the correct permissions can update or delete posts.
+  - Only Admins with the correct permissions can update or delete posts.
   - Regular users can only create new posts and add comments.
-  - Admin users have full control over post creation, updates, and deletions.
+  - Admin have full control over post creation, updates, and deletions.
 
 ---
 
